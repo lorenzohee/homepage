@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lorenzo Ho`s Home</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png?v=91dbea7bb0">
+    <link href="/assets/images/apple-touch-icon.png?v=91dbea7bb0" rel="apple-touch-icon">
+    <link href="/assets/images/apple-touch-icon-76x76.png?v=91dbea7bb0" rel="apple-touch-icon" sizes="76x76">
+    <link href="/assets/images/apple-touch-icon-120x120.png?v=91dbea7bb0" rel="apple-touch-icon" sizes="120x120">
+    <link href="/assets/images/apple-touch-icon-152x152.png?v=91dbea7bb0" rel="apple-touch-icon" sizes="152x152">
+    <meta name="description" content="thoughts, stories, ideas">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta name="referrer" content="origin">
+
+    <meta property="og:site_name" content="Lorenzo Ho`s Home">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lorenzo Ho`s Home">
+    <meta property="og:description" content="Thoughts, stories, ideas">
+    <meta property="og:url" content="">
+    <style>
+    .clearfix{
+        clear: both;
+    }
+    .home-info-container:hover{
+        color: #efefef;
+        text-shadow: 0 1px 1px #000;
+    }
+    footer{
+        font-family: Exo,sans-serif;
+        color: #666665;
+        font-weight: lighter;
+        line-height: 1.45em;
+        position: relative;
+        margin: 3rem 0 0;
+        padding: 1.5rem 0 0;
+        text-align: center;
+        border-top: #ebf2f6 1px solid;
+        font-size: 12px;
+        float: left;
+        width: 100%;
+    }
+    footer a{
+        text-decoration: none;
+        color: #666665;
+    }
+    #to-top{
+        display: inline;
+        position: fixed;
+        z-index: 1000;
+        right: 20px;
+        bottom: 20px;
+        overflow: hidden;
+        width: 48px;
+        height: 48px;
+        text-align: left;
+        text-indent: -9999px;
+        opacity: .5;
+        border-radius: 5%;
+        background: rgba(0,0,0,.6);
+        -khtml-opacity: .5;
+        filter: alpha(opacity=50);
+    }
+    #to-top .to-top-wrap{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .to-top-wrap:before{
+        position: absolute;
+        top: 50%;
+        width: 0;
+        height: 0;
+        content: '';
+        -webkit-animation-name: shine;
+        left: 50%;
+        display: block;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    }
+    .to-top-wrap:before{
+        margin-top: -12px;
+        margin-left: -15px;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        -webkit-animation-duration: 3s;
+        border-top: 20px solid rgba(255,255,255,.5);
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+    }
+    .home-header{
+        display: table;
+        background-image: url(yasuko.jpg);
+        height: 60%;
+        width: 100%;
+        padding: 2rem 0;
+        text-align: center;
+        max-height: 52rem;
+        box-sizing: border-box;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .home-info-link{
+        background-color: transparent;text-decoration: none;
+    }
+    .home-info-link h2{
+        font-size: 2.3em;
+        font-weight: lighter;
+        color: #fff;
+        text-shadow: 0 1px 1px #595959;
+        line-height: 1;
+        font-family: Exo,sans-serif;
+    }
+    .home-info-container h4{
+        font-size: 1.4em;
+        font-weight: lighter;
+        color: white;
+        text-shadow: 0 1px 1px #595959;
+        letter-spacing: 0.2em;
+    }
+    .homepage{
+        width: 998px;
+        margin: auto;
+    }
+    .team-member{
+        display: inline-block;
+        width: 326px;
+        height: 220px;
+        float: left;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 10px;
+        background: grey;
+    }
+    .mlr10{margin-left: 10px; margin-right: 10px}
+    .team-member .img{
+        position: relative;
+        overflow: hidden;
+    }
+    .on-pic{
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        width: 100%;
+        opacity: .7;
+        color: white;
+        font-size: 1.5em;
+    }
+    .img:hover .img-reponsive{
+        transform: scale(1.25);
+    }
+    </style>
+</head>
+<body style="margin:0">
+    <header data-url="/yasuko.jpg" class="home-header" style="">
+        <div class="header-wrap">
+            <div class="home-info-container" style="margin-top: 16em">
+                <a href="#" class="home-info-link">
+                    <h2>Keep Heart</h2></a>
+                <h4>毋忘初心</h4>
+            </div>
+        </div>
+    </header>
+    <main class="content homepage" role="main">
+        <div class="team-member">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="person_info.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        个人简介
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="team-member mlr10">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="yasuko.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        未完待续
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="team-member">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="yasuko.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        未完待续
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="team-member">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="yasuko.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        未完待续
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="team-member mlr10">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="yasuko.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        未完待续
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="team-member">
+            <a href="#">
+                <div class="img">
+                    <img class="img-reponsive" src="yasuko.jpg" width="326" height="220">
+                    <div class="on-pic">
+                        未完待续
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </main>
+    <footer class="site-footer clearfix ">
+        <section class="copyright "><a href="#">Lorenzo Ho</a> © 2017 </section>
+            <section class="poweredby ">Powered by  <a href="#">Lorenzo</a></section>
+            <section><a href="http://www.miitbeian.gov.cn/">京ICP备00000000号</a></section>
+    </footer>
+
+    <a href="#" id="to-top" title="返回顶部">
+    <div class="to-top-wrap"></div>
+    </a>
+</body>
+</html>
